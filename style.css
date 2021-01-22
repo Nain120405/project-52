@@ -1,0 +1,68 @@
+img{border: solid black;}
+body {background-color: lightgoldenrodyellow;}
+.header{
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+a:link{
+    color:greenyellow;
+}
+a:visited{
+    color: red;
+}
+.origami:hover li{
+    opacity: 0.33;
+}
+.origami:hover img{
+    opacity: 0.33;
+}
+body{
+    margin: 0px;
+    background-color: #f7f2f2;
+}
+.bodyimg{
+    position: relative;
+    text-align:center;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: initial;
+    color: white;
+}
+.centerT{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.centerB{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
